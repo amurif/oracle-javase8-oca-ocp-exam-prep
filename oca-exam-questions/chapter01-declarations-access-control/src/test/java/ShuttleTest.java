@@ -14,7 +14,7 @@ public class ShuttleTest {
 
     @Test
     public void testShuffleClass() throws Exception {
-        
+        shuttle.go();
     }
 
     @Before

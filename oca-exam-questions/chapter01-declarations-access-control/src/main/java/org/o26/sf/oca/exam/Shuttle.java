@@ -10,13 +10,10 @@ class Rocket {
 }
 
 public class Shuttle extends Rocket {
-    public static void main(String[] args) {
-        new Shuttle().go();
-    }
-
-    void go() {
+    public void go() {
         blastOff();
-// Rocket.blastOff(); // line A
+        //Rocket.blastOff(); // line A
+        // Error:(15, 15) java: blastOff() has private access in org.o26.sf.oca.exam.Rocket
     }
 
     private void blastOff() {
