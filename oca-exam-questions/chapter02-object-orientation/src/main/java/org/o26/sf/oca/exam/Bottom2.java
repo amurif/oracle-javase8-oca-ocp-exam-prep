@@ -6,7 +6,7 @@ package org.o26.sf.oca.exam;
 class Top {
 
     public Top() {
-        // default no-arg constor must be provided
+        // default no-arg constructor must be provided
     }
     public Top(String aString) {
         System.out.print(aString);
