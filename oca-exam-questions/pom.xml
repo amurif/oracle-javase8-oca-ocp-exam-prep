@@ -25,7 +25,7 @@
 
     <modules>
         <module>chapter01-declarations-access-control</module>
-        <!--module>chapter02-object-orientation</module-->
+        <module>chapter02-object-orientation</module>
     </modules>
     
 </project>
