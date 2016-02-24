@@ -11,18 +11,20 @@ import org.junit.Test;
  */
 public class DogShowTest {
 
+    private DogShow dogShow;
+
+    @Test
+    public void testDogShowClass() throws Exception {
+        dogShow.go();
+    }
+
     @Before
     public void setUp() throws Exception {
-
+        dogShow = new DogShow();
     }
 
     @After
     public void tearDown() throws Exception {
-
-    }
-
-    @Test
-    public void testGo() throws Exception {
-
+        dogShow = null;
     }
 }
