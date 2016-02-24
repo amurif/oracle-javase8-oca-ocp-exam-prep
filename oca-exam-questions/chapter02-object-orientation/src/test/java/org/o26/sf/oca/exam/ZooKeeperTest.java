@@ -11,18 +11,8 @@ import org.junit.Test;
  */
 public class ZooKeeperTest {
 
-    @Before
-    public void setUp() throws Exception {
-
-    }
-
-    @After
-    public void tearDown() throws Exception {
-
-    }
-
     @Test
     public void testRun() throws Exception {
-
+        ZooKeeper.run();
     }
 }
