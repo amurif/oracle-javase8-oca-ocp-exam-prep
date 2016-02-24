@@ -12,9 +12,9 @@ public class Redwood extends Tree {
     }
 
     void go2(Tree t1, Redwood r1) {
-        // t1 (doesn't reference a Redwood) cannot be cast to Redwood
+        // t1 doesn't reference a Redwood (subtype) object therefore it cannot be cast to Redwood.
         Redwood r2 = (Redwood) t1;
-        Tree t2 = (Tree) r1;
+        Tree t2 = (Tree) r1; // upcasting is always safe
     }
 }
 
